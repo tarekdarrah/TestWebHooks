@@ -1,8 +1,11 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Caching.Memory;
 using Newtonsoft.Json.Linq;
 
 namespace TestWebhooks.Controllers
@@ -10,11 +13,18 @@ namespace TestWebhooks.Controllers
     [Route("api/[controller]")]
     public class ValuesController : Controller
     {
+        private IMemoryCache _cache;
+        
+        public ValuesController(IMemoryCache memoryCache)
+        {
+            _cache = memoryCache;
+        }
         // GET api/values
         [HttpGet]
-        public IEnumerable<string> Get()
+        public string Get()
         {
-            return new string[] { "value1", "value2" };
+            string body = "";
+            return _cache.Get<string>("IDGKey");
         }
 
         // GET api/values/5
@@ -33,7 +43,12 @@ namespace TestWebhooks.Controllers
         [HttpPost]
         public void Post()
         {
-           Ok("Great");
+            using (var reader = new StreamReader(Request.Body))
+            {
+                var body = reader.ReadToEnd();
+                _cache.Set("IDGKey", body);
+            }
+            Ok("Great");
         }
 
         // PUT api/values/5
