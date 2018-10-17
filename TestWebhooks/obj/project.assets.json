@@ -12539,11 +12539,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\setardar\\Documents\\Visual Studio 2017\\Projects\\TestWebhooks\\TestWebhooks\\TestWebhooks.csproj",
+      "projectUniqueName": "C:\\IcaNewProject\\testing\\TestWebhooks\\TestWebhooks.csproj",
       "projectName": "TestWebhooks",
-      "projectPath": "C:\\Users\\setardar\\Documents\\Visual Studio 2017\\Projects\\TestWebhooks\\TestWebhooks\\TestWebhooks.csproj",
+      "projectPath": "C:\\IcaNewProject\\testing\\TestWebhooks\\TestWebhooks.csproj",
       "packagesPath": "C:\\Users\\setardar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\setardar\\Documents\\Visual Studio 2017\\Projects\\TestWebhooks\\TestWebhooks\\obj\\",
+      "outputPath": "C:\\IcaNewProject\\testing\\TestWebhooks\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,0 +1,11 @@
+C:\IcaNewProject\testing\TestWebhooks\bin\Debug\netcoreapp2.0\TestWebhooks.deps.json
+C:\IcaNewProject\testing\TestWebhooks\bin\Debug\netcoreapp2.0\TestWebhooks.runtimeconfig.json
+C:\IcaNewProject\testing\TestWebhooks\bin\Debug\netcoreapp2.0\TestWebhooks.runtimeconfig.dev.json
+C:\IcaNewProject\testing\TestWebhooks\bin\Debug\netcoreapp2.0\TestWebhooks.dll
+C:\IcaNewProject\testing\TestWebhooks\bin\Debug\netcoreapp2.0\TestWebhooks.pdb
+C:\IcaNewProject\testing\TestWebhooks\obj\Debug\netcoreapp2.0\TestWebhooks.csprojAssemblyReference.cache
+C:\IcaNewProject\testing\TestWebhooks\obj\Debug\netcoreapp2.0\TestWebhooks.csproj.CoreCompileInputs.cache
+C:\IcaNewProject\testing\TestWebhooks\obj\Debug\netcoreapp2.0\TestWebhooks.AssemblyInfoInputs.cache
+C:\IcaNewProject\testing\TestWebhooks\obj\Debug\netcoreapp2.0\TestWebhooks.AssemblyInfo.cs
+C:\IcaNewProject\testing\TestWebhooks\obj\Debug\netcoreapp2.0\TestWebhooks.dll
+C:\IcaNewProject\testing\TestWebhooks\obj\Debug\netcoreapp2.0\TestWebhooks.pdb

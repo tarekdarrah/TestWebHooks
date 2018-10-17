@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json.Linq;
 
 namespace TestWebhooks.Controllers
 {
@@ -25,8 +26,9 @@ namespace TestWebhooks.Controllers
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody]string value)
+        public void Post()
         {
+           Ok("Great");
         }
 
         // PUT api/values/5
