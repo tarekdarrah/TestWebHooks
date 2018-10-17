@@ -24,6 +24,11 @@ namespace TestWebhooks.Controllers
             return "value";
         }
 
+        [HttpHead]
+        public void Head()
+        {
+            Ok("Great");
+        }
         // POST api/values
         [HttpPost]
         public void Post()
