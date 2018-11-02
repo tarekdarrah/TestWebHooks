@@ -31,7 +31,7 @@ namespace TestWebhooks.Controllers
         [HttpGet("{id}")]
         public string Get(int id)
         {
-            return "value";
+            return id.ToString();
         }
 
         [HttpHead]
@@ -55,6 +55,7 @@ namespace TestWebhooks.Controllers
         [HttpPut("{id}")]
         public void Put(int id, [FromBody]string value)
         {
+           
         }
 
         // DELETE api/values/5
